@@ -1,0 +1,25 @@
+#offsetMenu {
+    margin-top: 8px;
+}
+
+#username {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 4em;
+}
+
+#logo {
+    min-width: 150px;
+    max-height: 24px;
+    object-fit: contain;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    color: white!important;
+}
+
+.navbar .nav-link {
+    color: white;
+}
