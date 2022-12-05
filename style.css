@@ -17,9 +17,20 @@
 
 .nav-link.active {
     text-decoration: underline;
-    color: white!important;
 }
 
-.navbar .nav-link {
-    color: white;
+#carouselExampleIndicators {
+    height: 40vh;
+}
+
+#carouselExampleIndicators .carousel-inner,
+#carouselExampleIndicators .carousel-item,
+#carouselExampleIndicators .carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators button {
+    width: 20px!important;
+    height: 20px!important;
 }

@@ -13,7 +13,7 @@
 <body>
 
 
-    <nav class="navbar bg-dark navbar-expand-lg">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img id="logo" class="img-fluid" src="/assets/prime-video.png" alt="PrimeVideo" width="30" height="24">
@@ -41,7 +41,7 @@
                             aria-expanded="false">
                             Categories
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu dropdown-menu-dark">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
@@ -57,13 +57,13 @@
 
                 <div class="d-flex align-items-center forty">
                     <span class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <span id="username">
                                 Stefano
                             </span>
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end" id="offsetMenu">
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" id="offsetMenu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
@@ -81,7 +81,39 @@
             </div>
         </div>
     </nav>
-    
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="shadow-lg rounded-circle active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" class="rounded-circle shadow-lg " data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" class="rounded-circle shadow-lg " data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://picsum.photos/2000/3000" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/2000/3000" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/2000/3000" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
 
     <script src="bootstrap-5.2-2.3-dist/js/bootstrap.bundle.js"></script>
     <script src="script.js"></script>
