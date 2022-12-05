@@ -23,3 +23,13 @@
 .navbar .nav-link {
     color: white;
 }
+
+.slider .row {
+    height: 24vh;
+    overflow-y: hidden;
+}
+
+.slider span a {
+    color: white;
+    text-decoration: none;
+}
